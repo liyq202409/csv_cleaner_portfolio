@@ -1,0 +1,19 @@
+{
+  "input_file": "customers.csv",
+  "total_data_rows": 6,
+  "blank_rows_removed": 1,
+  "duplicate_rows_removed": 1,
+  "rows_with_missing_values": 2,
+  "cleaned_rows": 4,
+  "exception_records": 2,
+  "outputs": [
+    "cleaned.csv",
+    "exceptions.csv",
+    "summary.json"
+  ],
+  "notes": [
+    "The original input file was not modified.",
+    "Rows with missing values are retained in cleaned.csv and flagged in exceptions.csv.",
+    "Duplicate detection is performed after trimming whitespace."
+  ]
+}

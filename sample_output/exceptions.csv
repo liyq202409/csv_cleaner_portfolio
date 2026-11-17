@@ -1,0 +1,3 @@
+﻿source_line,issue,details,customer_id,name,email,city
+3,missing_values,Missing values in: email,1002,Bob,,Beijing
+7,missing_values,Missing values in: city,1004,Diana,diana@example.com,

@@ -1,0 +1,34 @@
+{
+  "input_file": "customers.csv",
+  "encoding": "utf-8-with-bom",
+  "headers": [
+    "customer_id",
+    "name",
+    "email",
+    "city"
+  ],
+  "header_fixes": [],
+  "total_data_rows": 6,
+  "blank_rows_removed": 1,
+  "duplicate_rows_removed": 1,
+  "dedup_mode": "full_row",
+  "dedup_fields": null,
+  "rows_with_column_mismatch": 0,
+  "rows_with_missing_values": 2,
+  "cleaned_rows": 4,
+  "exception_records": 2,
+  "outputs": [
+    "cleaned.csv",
+    "exceptions.csv",
+    "summary.json"
+  ],
+  "notes": [
+    "The original input file was not modified.",
+    "UTF-8 and UTF-8 BOM are auto-detected. Other encodings can be specified explicitly; unsupported or incorrect encodings raise a clear error.",
+    "Headers are trimmed; empty/duplicate headers are renamed to avoid field mix-ups.",
+    "Column-count mismatches are recorded in exceptions.csv and never crash the run.",
+    "Rows with missing values are retained in cleaned.csv and flagged in exceptions.csv.",
+    "Duplicate detection is performed after trimming whitespace.",
+    "Rows with empty dedup-key fields are kept and NOT treated as duplicates."
+  ]
+}

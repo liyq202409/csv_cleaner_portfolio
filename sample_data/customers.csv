@@ -1,0 +1,7 @@
+﻿customer_id,name,email,city
+1001, Alice ,alice@example.com , Changsha 
+1002,Bob,,Beijing
+1001,Alice,alice@example.com,Changsha
+1003, Charlie ,charlie@example.com, Shanghai 
+,,,
+1004,Diana,diana@example.com,
